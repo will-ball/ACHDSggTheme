@@ -24,6 +24,7 @@ theme_achds <- function() {
     #This sets the font, size, type and colour of text for the chart's subtitle, as well as setting a margin between the title and the subtitle
     plot.subtitle = ggplot2::element_text(family=font,
                                           size=16,
+                                          color="#3e3d3d",
                                           margin=ggplot2::margin(9,0,9,0)),
 
     #This leaves the caption text element empty, because it is set elsewhere in the finalise plot function
@@ -48,7 +49,7 @@ theme_achds <- function() {
                                       color="#3e3d3d"),
     axis.text.x = ggplot2::element_text(margin=ggplot2::margin(5, b = 10)),
     axis.ticks = ggplot2::element_blank(),
-    axis.line = ggplot2::element_line(),
+    axis.line = ggplot2::element_line(colour = "#3e3d3d"),
 
     #Grid lines:
     #This removes all minor and major gridlines. In many cases you will want to add gridlines.
