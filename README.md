@@ -1,5 +1,6 @@
 # ACHDSggTheme
 
+
 ## Overview
 ACHDSggTheme is an R package for easily adding a standardised Aberdeen Centre for Health Data Science 'theme' to ggplot2 plots in R.
 
@@ -10,6 +11,7 @@ It is based on the [BBC theme package](https://github.com/bbc/bbplot) `{bbplot}`
 - `theme_achds()` which alters the theme elements
 - `finalise_plot()` which adds a footer with the data source & an optional logo. This also saves the plot to a specified destination.
 
+
 ## Installation
 
 ``` r
@@ -18,6 +20,7 @@ It is based on the [BBC theme package](https://github.com/bbc/bbplot) `{bbplot}`
 # install.packages("devtools")
 devtools::install_github("will-ball/ACHDSggTheme")
 ```
+
 
 ## Usage
 
@@ -41,6 +44,7 @@ plot
 ACHDSggTheme::finalise_plot(plot = plot, source_name = "Source: mtcars", save_filepath = "test.png")
 ```
 ![](data/test.png)
+
 
 ## Development
 
