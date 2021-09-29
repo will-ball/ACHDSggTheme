@@ -1,0 +1,25 @@
+Package: ACHDSggTheme
+Title: Making GGPlot Graphics in ACHDS Style
+Version: 0.1
+Authors@R: 
+    person(given = "Will",
+           family = "Ball",
+           role = c("aut", "cre"),
+           email = "william.ball@abdn.ac.uk",
+           comment = c(Twitter = "@WillBall12"))
+Description: Two simple functions to add to a ggplot2 workflow. One package sets the theme of the plot to the ACHDS standards. Another plot exports in a consistent way.
+Depends: R (>= 3.3.0)
+Imports:
+  ggplot2,
+  png,
+  grid,
+  ggpubr,
+  dplyr,
+  data.table,
+  extrafont
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+
