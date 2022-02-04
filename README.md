@@ -29,6 +29,8 @@ After building your `ggplot()` call you simply add another line and call `theme_
 Here's an example using the `mtcars` dataset.
 
 ``` r
+library(tidyverse)
+
 plot <- mtcars %>%
   mutate(cyl = ordered(cyl, levels = c("4","6","8"))) %>% 
   ggplot(aes(x = mpg, y = wt, colour = cyl)) + 
